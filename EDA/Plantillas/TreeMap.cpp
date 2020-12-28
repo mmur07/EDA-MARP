@@ -1,12 +1,4 @@
-﻿// Nombre del alumno .....
-// Usuario del Juez ......
-
-
-#include <iostream>
-#include <iomanip>
-#include <fstream>
-
-/*
+﻿/*
   Definición de algunas excepciones de las distintas
   implementaciones de los TADs.
 
