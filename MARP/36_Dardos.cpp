@@ -167,14 +167,7 @@ std::vector<int> aciertosMinimos(const std::vector<int>& sectores, const int& ob
             }
         }
     }
-    //for (int i = 1; i <= n; i++) {
-    //    std::cout << sectores[i - 1] << ": ";
-    //    for (int j = 1; j <= objetivo; j++) {
-    //        if (m[i][j] == Infinito) std::cout << 0 << " ";
-    //        else std::cout << m[i][j] << " ";
-    //    }
-    //    std::cout << "\n";
-    //}
+
     if (m[n][objetivo] != Infinito) {
         std::vector<int> solucion;
         int i = n, j = objetivo;
