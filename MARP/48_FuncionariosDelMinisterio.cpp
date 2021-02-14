@@ -1,4 +1,4 @@
-
+﻿
 /*@ <answer>
  *
  * Nombre y Apellidos:
@@ -13,9 +13,9 @@ using namespace std;
 //
 //  Matriz.h
 //
-//  Implementación de matrices (arrays bidimensionales)
+//  ImplementaciÃ³n de matrices (arrays bidimensionales)
 //
-//  Facultad de Informática
+//  Facultad de InformÃ¡tica
 //  Universidad Complutense de Madrid
 //
 //  Copyright (c) 2020  Alberto Verdejo
@@ -34,7 +34,7 @@ public:
     // con todas sus celdas inicializadas al valor e
     Matriz(int fils = 0, int cols = 0, Object e = Object()) : datos(fils, std::vector<Object>(cols, e)) {}
 
-    // operadores para poder utilizar notación M[i][j]
+    // operadores para poder utilizar notaciÃ³n M[i][j]
     std::vector<Object> const& operator[](int f) const {
         return datos[f];
     }
@@ -42,7 +42,7 @@ public:
         return datos[f];
     }
 
-    // métodos que lanzan una excepción si la posición no existe
+    // mÃ©todos que lanzan una excepciÃ³n si la posiciÃ³n no existe
     Object const& at(int f, int c) const {
         return datos.at(f).at(c);
     }
@@ -77,15 +77,15 @@ inline std::ostream& operator<<(std::ostream& out, Matriz<Object> const& m) {
 
 /*@ <answer>
 
- Escribe aqu� un comentario general sobre la soluci�n, explicando c�mo
- se resuelve el problema y cu�l es el coste de la soluci�n, en funci�n
- del tama�o del problema.
+ Escribe aquí un comentario general sobre la solución, explicando cómo
+ se resuelve el problema y cuál es el coste de la solución, en función
+ del tamaño del problema.
 
  @ </answer> */
 
 
  // ================================================================
- // Escribe el c�digo completo de tu soluci�n aqu� debajo
+ // Escribe el código completo de tu solución aquí debajo
  // ================================================================
  //@ <answer>
 
@@ -169,7 +169,7 @@ bool resuelveCaso() {
 }
 
 //@ </answer>
-//  Lo que se escriba dejado de esta l�nea ya no forma parte de la soluci�n.
+//  Lo que se escriba dejado de esta línea ya no forma parte de la solución.
 
 int main() {
     // ajustes para que cin extraiga directamente de un fichero
